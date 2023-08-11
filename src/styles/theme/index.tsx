@@ -1,19 +1,21 @@
 export const light = {
+  title: "light",
   colors: {
     background: "#FFFFC7",
     primary: "#FCAA67",
     secondary: "#B0413E",
-    third: "#69A2B0",
+    action: "#69A2B0",
     text: "#131515",
   },
 };
 
 export const dark = {
+  title: "dark",
   colors: {
-    background: "#FFFFC7",
+    background: "#131515",
     primary: "#FCAA67",
     secondary: "#B0413E",
-    third: "#69A2B0",
-    text: "#131515",
+    action: "#69A2B0",
+    text: "#FFFFC7",
   },
 };

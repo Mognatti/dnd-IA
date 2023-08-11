@@ -1,11 +1,16 @@
 import { ThemeProvider } from "styled-components";
 import GlobalStyle from "./styles/global";
-import { light } from "./styles/theme";
+import Header from "./components/Header/Header";
+import { dark } from "./styles/theme";
+import useTheme from "../hooks/useTheme";
 
 function App() {
+  const [{ theme, setTheme }] = useTheme("theme", dark);
+
   return (
-    <ThemeProvider theme={light}>
+    <ThemeProvider theme={theme}>
       <GlobalStyle />
+      <Header {...{ theme, setTheme }} />
     </ThemeProvider>
   );
 }

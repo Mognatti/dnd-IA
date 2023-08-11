@@ -1,0 +1,6 @@
+/* Arquivo criado porque a API atual do styled-components não está lidando adequadamente com imports css no momento */
+@import url("https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap");
+
+* {
+  font-family: "Goudy Bookletter 1911", serif;
+}
