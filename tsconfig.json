@@ -21,6 +21,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src", "hooks/useFirebaseAuth.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

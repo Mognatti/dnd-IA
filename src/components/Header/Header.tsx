@@ -10,10 +10,10 @@ export default function Header({ theme, setTheme }: HeaderProps) {
   return (
     <S.StyledNavbar expand="lg">
       <Container>
-        <S.NavbarTitle href="#">
+        <S.HeaderLink to="/">
           <S.PageIcon />
           DnD Buddy
-        </S.NavbarTitle>
+        </S.HeaderLink>
         <S.ToggleOffset
           onClick={() => setShowSidebar(!showSidebar)}
           className="d-block"

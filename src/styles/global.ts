@@ -4,6 +4,7 @@ export default createGlobalStyle`
 
 :root {
   line-height: 1.5;
+  overflow-x: hidden;
 
 }
 
